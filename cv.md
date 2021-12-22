@@ -46,3 +46,7 @@ _Nothing yet…_
 - Khmelnytsky National University
   - Professional education  
     _Septermber 2001 - June 2006 |Ukraine_
+
+## English
+
+- A2 (B1 in progress...)
