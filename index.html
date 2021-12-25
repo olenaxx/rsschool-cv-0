@@ -29,9 +29,6 @@
               <a class="nav__link" href="#code">code</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link" href="#courses">courses</a>
-            </li>
-            <li class="nav__item">
               <a class="nav__link" href="#projects">projects</a>
             </li>
             <li class="nav__item">
@@ -51,12 +48,14 @@
             <figure>
               <img class="photo" src="./assets/img/photo1.jpeg" alt="avatar" />
             </figure>
-            <div>
+            <div class="profile__text">
               <h1 class="name">OLENA STADNYK</h1>
-              <h2>Junior Front-End developer</h2>
-              <p>
-                I am a beginner Front End developer and I am very interested in
-                development in this direction
+              <h2 class="section__title section__title-profile">
+                Junior Front-End developer
+              </h2>
+              <p class="profile__describe">
+                I am a beginner Front End developer <br />
+                and I am very interested in develop in this direction
               </p>
             </div>
           </div>
@@ -64,14 +63,9 @@
         <div class="section__flex">
           <div class="section__side">
             <section class="section" id="contacts">
-              <h2 class="section__title">contacts</h2>
+              <h2 class="section__title section__title-side">contacts</h2>
               <ul class="section__list">
                 <li class="section__item">Khmelnytskyi, Ukraine</li>
-                <li class="section__item">
-                  <a class="section__link" href="tel:+380671637025"
-                    >+38 (067) 163-70-25</a
-                  >
-                </li>
                 <li class="section__item">
                   <a class="section__link" href="mailto:lenesx@gmail.com"
                     >lenesx@gmail.com</a
@@ -94,10 +88,11 @@
                     >GitHub</a
                   >
                 </li>
+                <li class="section__item">Discord: Leness#9338</li>
               </ul>
             </section>
             <section id="skills">
-              <h2 class="section__title">tech skills</h2>
+              <h2 class="section__title section__title-side">tech skills</h2>
               <ul class="section__list">
                 <li class="section__item">HTML</li>
                 <li class="section__item">CSS</li>
@@ -105,7 +100,7 @@
                 <li class="section__item">GIT</li>
                 <li class="section__item">GitHub</li>
               </ul>
-              <h2 class="section__title">soft skills</h2>
+              <h2 class="section__title section__title-side">soft skills</h2>
               <ul class="section__list">
                 <li class="section__item">Teamwork</li>
                 <li class="section__item">Communication</li>
@@ -113,7 +108,9 @@
               </ul>
             </section>
             <section id="english">
-              <h2 class="section__title">language skills</h2>
+              <h2 class="section__title section__title-side">
+                language skills
+              </h2>
               <ul class="section__list">
                 <li class="section__item">Ukrainian - native</li>
                 <li class="section__item">Russian - native</li>
@@ -121,7 +118,7 @@
               </ul>
             </section>
           </div>
-          <div>
+          <div class="section__side-right">
             <section id="code">
               <h2 class="section__title">Code Example</h2>
               <pre class="code">
@@ -159,7 +156,16 @@
               </p>
             </section>
             <section id="projects">
-              <h2 class="section__title">projects</h2>
+              <h2 class="section__title">Projects</h2>
+              <ul class="section__list">
+                <li class="section__item">
+                  <a
+                    href="https://olenaxx.github.io/rsschool-cv/cv"
+                    target="_blank"
+                    >CV</a
+                  >
+                </li>
+              </ul>
             </section>
           </div>
         </div>
@@ -167,7 +173,7 @@
     </main>
     <footer class="footer">
       <div class="container footer__container">
-        <p class="footer__copy">&COPY;2022 by Olena Stadnyk</p>
+        <p class="footer__copy">2022&COPY; by Olena Stadnyk</p>
         <a href="https://rs.school/js/">
           <img src="./assets/svg/rs_school_js.svg" width="86" alt="RS School" />
         </a>
