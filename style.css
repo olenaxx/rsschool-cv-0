@@ -79,9 +79,22 @@ a {
 }
 
 .name {
+    position: relative;
     margin-top: 80px;
+    font-size: 40px;
     color: #fff;
     text-align: center;
+}
+
+.name::after {
+    content: '';
+    position: absolute;
+    width: 280px;
+    height: 1px;
+    background-color: #D8BFD8;
+    top: 65px;
+    left: 13%;
+    border-radius: 50%;
 }
 
 .section__title-profile {
