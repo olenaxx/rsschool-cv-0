@@ -19,7 +19,7 @@ a {
 
 .header {
     background-color: #483D8B;
-    padding: 15px 40px;
+    padding: 10px 40px;
 }
 
 .container {
@@ -75,7 +75,7 @@ a {
 }
 
 .profile__text {
-    margin-left: 80px;
+    margin-left: 140px;
 }
 
 .name {
@@ -123,5 +123,5 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 40px;
+    padding: 10px 40px;
 }
